@@ -34,6 +34,7 @@ public class ReCaptcha {
             switch self {
             case .default: return "https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
             case .alternate: return "https://www.recaptcha.net/recaptcha/api.js?onload=onloadCallback&render=explicit"
+            case .hebrewPurple: return "https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit&hl=iw"
             }
         }
     }
