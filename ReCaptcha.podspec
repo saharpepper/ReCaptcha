@@ -10,7 +10,7 @@ automatically handles ReCaptcha's events and retrieves the validation token or n
 invisibility is not possible.
                        DESC
 
-  s.homepage         = 'https://github.com/fjcaetano/ReCaptcha'
+  s.homepage         = 'https://github.com/saharpepper/ReCaptcha'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Flávio Caetano' => 'flavio@vieiracaetano.com' }
   s.source           = { :git => 'https://github.com/fjcaetano/ReCaptcha.git', :tag => s.version.to_s }
