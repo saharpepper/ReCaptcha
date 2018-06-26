@@ -29,7 +29,8 @@ public class ReCaptcha {
 
         /// Alternate endpoint. Points to https://www.recaptcha.net/recaptcha/api.js
         case alternate
-
+        case hebrewPurple
+        
         internal var url: String {
             switch self {
             case .default: return "https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
