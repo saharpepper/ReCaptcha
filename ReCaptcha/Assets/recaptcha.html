@@ -13,6 +13,8 @@
   var showReCaptcha = function() {
       console.log("showReCaptcha");
       post({action: "showReCaptcha"});
+    
+      document.querySelector('body>div').style.width = '100%';
   };
   
   var observeDOM = function(element, completion) {
